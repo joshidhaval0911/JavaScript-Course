@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Third Program</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    // Conditional Expression in JS
+
+    let per = prompt("Enter your Percentage : ");
+    per = Number.parseFloat(per);
+    // console.log(per);
+    // console.log(typeof per);
+
+    if (per < 0 && per > 100) {
+        alert("This is a invalid Percentage...");
+    }
+    else if (per > 85) {
+        alert("Distinction");
+    }
+    else if (per > 70) {
+        alert("First Class");
+    }
+    else if (per > 55) {
+        alert("Second Class");
+    }
+    else if (per > 33) {
+        alert("Third Class");
+    }
+    else {
+        alert("Pass");
+    }
+
+    // Turnary Operator
+
+    console.log("You are ", per>33 ? "Pass" : "Not Pass");
+</script>
+
+</html>

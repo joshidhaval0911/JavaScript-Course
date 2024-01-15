@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Loops</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    // Types of Loops in JS
+
+    // For Loop
+    for (let i = 1; i < 16; i++) {
+        console.log(i);
+    }
+
+    // For In Loop
+
+    let obj = {
+        bruce: 74,
+        carl: 68,
+        tony: 93,
+        steve: 84
+    }
+
+    for (let i in obj) {
+        console.log("Marks of " + i + " is : " + obj[i]);
+    }
+
+    // For Of Loop
+
+    for (let c of "JavaScript") {
+        console.log(c);
+    }
+
+    // While Loop
+
+    let n = Number.parseInt(prompt("Enter the value : "));
+    let i = 0;
+
+    while (i < n) {
+        console.log(i);
+        i++;
+    }
+
+    // Do While Loop
+
+    let s = Number.parseInt(prompt("Enter the value : "));
+    let j = 0;
+
+    do{
+        console.log(j);
+        j++;
+    }while (j < s);
+</script>
+
+</html>
