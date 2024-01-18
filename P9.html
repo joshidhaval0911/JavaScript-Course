@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Strings Functions</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    // String Functions in JS
+    let str = "JavaScript";
+    let n = "Mark";
+    let n2 = "      Hello           ";
+    let snt = "The lion is king of the jungle.";
+    let word = "lion";
+
+    console.log(str.length); //It is a property of string to get length of a string
+    console.log(str.toUpperCase()); //It is a function to convert string in Uppercase
+    console.log(str.slice(2, 6)); //It is a function to slice a string in range of index but last index is not included in output
+    console.log(str.replace("Java", "Type")); //It is a function to replace a particular portion of a string with other string
+    console.log(n.concat(" is a developer of ", str, " language.")); //It is a function to concate the other string within current string
+    console.log(n2.trim()); //It is a function to remove the whitespaces from string.
+    console.log(snt);
+    console.log(`The word "${word}" ${snt.includes(word) ? 'is' : 'is not'} in the sentence.`); //It is a function to find a particular word in string.
+
+</script>
+
+</html>
