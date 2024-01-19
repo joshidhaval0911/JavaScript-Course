@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Array</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    // Array in JS
+    let arr = [34, 23, 554, 34.43, "Hello", '342', true];
+    // console.log(arr);
+    // console.log(arr[4]); //[] are used to access specific element an of array.
+    arr[7] = 2432.54;
+    // console.log(arr[7]);
+    // console.log("The length of array is : ",arr.length); //length property is used to get the length of an array
+
+    // console.log("Elements of Array are : ");
+
+    // for (let ele = 0; ele < arr.length; ele++) {
+    //     console.log(arr[ele]);
+    // }
+
+    // for (const key in arr) {
+    //     console.log(arr[key]);
+    // }
+
+    // Array's Methods
+
+    let str = arr.toString(); //Arr becomes the string
+    console.log(str);
+
+    let join = arr.join(" - "); //To join arr with a symbol or character and return in string format.
+    console.log(join);
+
+    let lste = arr.pop(); //To remove last element of array and return poped element
+    console.log(lste);
+    console.log(arr);
+
+    let push = arr.push(2.332); //To push new value in array and return new length of array
+    console.log(push);
+    console.log(arr);
+
+    let shift = arr.shift(); //To remove first value from array and return first value
+    console.log(shift);
+    console.log(arr);
+
+    let unshift = arr.unshift(43); //To add new value in array at first position and return new length of array
+    console.log(unshift);
+    console.log(arr);
+</script>
+
+</html>
