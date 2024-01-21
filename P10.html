@@ -32,27 +32,53 @@
 
     // Array's Methods
 
-    let str = arr.toString(); //Arr becomes the string
-    console.log(str);
+    // let str = arr.toString(); //Arr becomes the string
+    // console.log(str);
 
-    let join = arr.join(" - "); //To join arr with a symbol or character and return in string format.
-    console.log(join);
+    // let join = arr.join(" - "); //To join arr with a symbol or character and return in string format.
+    // console.log(join);
 
-    let lste = arr.pop(); //To remove last element of array and return poped element
-    console.log(lste);
-    console.log(arr);
+    // let lste = arr.pop(); //To remove last element of array and return poped element
+    // console.log(lste);
+    // console.log(arr);
 
-    let push = arr.push(2.332); //To push new value in array and return new length of array
-    console.log(push);
-    console.log(arr);
+    // let push = arr.push(2.332); //To push new value in array and return new length of array
+    // console.log(push);
+    // console.log(arr);
 
-    let shift = arr.shift(); //To remove first value from array and return first value
-    console.log(shift);
-    console.log(arr);
+    // let shift = arr.shift(); //To remove first value from array and return first value
+    // console.log(shift);
+    // console.log(arr);
 
-    let unshift = arr.unshift(43); //To add new value in array at first position and return new length of array
-    console.log(unshift);
-    console.log(arr);
+    // let unshift = arr.unshift(43); //To add new value in array at first position and return new length of array
+    // console.log(unshift);
+    // console.log(arr);
+
+    delete arr[3]; //delete is operator which is used to remove element from array and length of array is remains same.
+
+    // console.log(arr);
+    let arr1 = [1, 2, 3, 4, 5, 6, 7];
+    let arr2 = [11, 12, 13, 14, 15, 16, 7];
+    let arr3 = arr1.concat(arr2); //concat function is used to concat multiple array within new array.
+    const cmp = (a, b) => {
+        return a - b;
+    }
+    // console.log(arr3);
+
+    // arr2.sort(); //sort function is used to sort element of array in alphabetical menor and it will change index of array permanetly.
+
+    // arr2.sort(cmp); //sort function with cmp function is used to sort element of array and it will change index of array permanetly.
+
+    // console.log(arr2);
+
+    // console.log(arr1.reverse()); //reverse function is used to reverse the index of elements of an array.
+
+    let rmEle = arr1.splice(3, 2, 14, 24);
+    console.log(rmEle);
+    console.log(arr1); //splice function is used to add multiple elements at a specific index in an array and old indexed elements are deleted from array.
+
+    let arr4 = arr1.slice(2, 5);
+    console.log(arr4); //slice function is used to get elements of source array from specific index to end of array (by  default).
 </script>
 
 </html>
