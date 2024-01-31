@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Console</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    // Console in JS
+
+    console.log(console);
+    console.error("This is an error sample using console."); //Used for show error in console.
+    console.assert(5 > 14); //Assert is used for condition purpose.
+    // console.clear(); //Clear is used to clear the console.
+
+    let obj = {
+        1: 'One',
+        2: 'Two',
+        3: 'Three',
+        4: 'Four',
+        5: 'Five'
+    };
+
+    console.table(obj); //Used for show object's key and value in tabular form.
+
+    console.warn("This is a warning sample using console."); //Used for show warning in console.
+    console.info("This is a infomation sample using console."); //Used for show important infomation in console.
+    console.time("t1"); //Used for start counting of the execution in console.
+
+    for (let index = 0; index < 30; index++) {
+        console.log(index);        
+    }
+
+    console.timeEnd("t1"); //Used for end counting of the execution in console.
+
+</script>
+
+</html>
